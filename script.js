@@ -48,3 +48,23 @@ for (let index = 0; index < groceries.length; index++) {
 }
 
 console.log("Please pay", priceTotal)
+
+
+// <button id="add-to-cart-button">Add to cart</button>
+//     <button  id="delete-from-cart-button">Delete from cart</button>
+//     <button id="next-page-button">Next page</button>
+
+let addCartButton = document.querySelector("#add-to-cart-button")
+addCartButton.addEventListener("click", function() {
+    console.log("Item added to cart")
+})
+
+let deleteCartButton = document.querySelector("#delete-from-cart-button")
+deleteCartButton.addEventListener("click", function() {
+    console.log("Item deleted from cart")
+})
+
+let nextPageButton = document.querySelector("#next-page-button")
+nextPageButton.addEventListener("click", function() {
+    console.log("Display next page")
+})
